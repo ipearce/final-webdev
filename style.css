@@ -1,7 +1,23 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    align-content: center;
+}
 
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+button{
+margin-left: 48%;
+}
 
  .homerow {
     box-sizing: border-box;
+    margin-left:20%;
   }
   
   .homecolumn {
@@ -20,4 +36,35 @@
     .homecolumn {
       width: 100%;
     }
+    button{
+        margin-left:0;
+    }
+    .homerow{
+        margin-left:0%;
+    }
+  }
+
+
+  #unsplashImage {
+    max-height: 500px;
+    border: 20px solid black;
+  }
+
+
+  .imageDetails {
+    background-color: black;
+    margin-top: 50px;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    width: fit-content;
+  }
+
+  .imageDetails a {
+    color: #FFF;
+  }
+
+  .imageDetails a:hover {
+    color: yellow;
   }
